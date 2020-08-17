@@ -1,0 +1,11 @@
+.row {
+  width: 100%;
+}
+.col {
+  float: left;
+}
+.clearfix::after{
+  clear: both;
+  display: table;
+  content: "";
+}
